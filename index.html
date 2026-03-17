@@ -261,7 +261,7 @@
                                 Aspiring Product Manager with a technical foundation in web development, AI, and data-driven marketing. Currently finishing my B.A. at Michigan State University with a 4.0 GPA.
                             </p>
                             <div class="hero_cta_group wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.3s">
-                                <a href=""assets/images/Oles_Ethan_Resume.pdf"" class="main-btn" onclick="openResumeModal(); return false;">
+                                <a href="assets/images/Oles_Ethan_Resume.pdf" class="main-btn" onclick="openResumeModal(); return false;">
                                     View Resume &nbsp;<i class="lni lni-eye"></i>
                                 </a>
                             </div>
@@ -604,7 +604,7 @@
             <div class="resume_modal_header">
                 <span class="resume_modal_title">Ethan Oles — Resume</span>
                 <div class="resume_modal_actions">
-                    <a href="assets/resume/Ethan_Oles_Resume.pdf" download class="resume_modal_btn">
+                    <a href="assets/images/Oles_Ethan_Resume.pdf" download class="resume_modal_btn">
                         <i class="lni lni-download"></i> Download PDF
                     </a>
                     <button class="resume_modal_close" onclick="document.getElementById('resumeModal').classList.remove('active'); document.body.style.overflow='';">
@@ -641,7 +641,7 @@
         function openResumeModal() {
             var frame = document.getElementById('resumeFrame');
             if (!frame.src || frame.src === window.location.href) {
-                frame.src = 'assets/resume/Ethan_Oles_Resume.pdf';
+                frame.src = 'assets/images/Oles_Ethan_Resume.pdf';
             }
             document.getElementById('resumeModal').classList.add('active');
             document.body.style.overflow = 'hidden';
